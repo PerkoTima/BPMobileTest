@@ -23,13 +23,13 @@ function changeLocalization(localization){
     .then((data) => {
         textArr.forEach((e) => {
             if(e.innerHTML.includes('{{price}}')){
-                let newStr = data[e.innerHTML].replace(/{{price}}/g, '9.99')
+                let newStr = data[e.innerHTML].replace(/{{price}}/g, '$9.99')
                 e.innerHTML = newStr
             }else if(e.innerHTML.includes('{{priceYm}}')){
-                let newStr = data[e.innerHTML].replace(/{{priceYm}}/g, '1.66')
+                let newStr = data[e.innerHTML].replace(/{{priceYm}}/g, '$1.66')
                 e.innerHTML = newStr
             }else if(e.innerHTML.includes('{{priceY}}')){
-                let newStr = data[e.innerHTML].replace(/{{priceY}}/g, '19.99')
+                let newStr = data[e.innerHTML].replace(/{{priceY}}/g, '$19.99')
                 e.innerHTML = newStr
             }else{
                 e.innerHTML = data[e.innerHTML]
