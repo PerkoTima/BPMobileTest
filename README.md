@@ -9,4 +9,6 @@
 Технологии: HTML5, CSS3, нативный JavaScript.
 Информация по макету:
 Крестик, Restore, Terms of Use, Privacy Policy являются ссылками, укажите атрибут href='#' При нажатии на кнопку "Continue" происходит переход по ссылке. Каждой ячейке в панели выбора соответствуют ссылки, слева направо:
-● https://apple.com/ ● https://google.com/
+
+● https://apple.com/ 
+● https://google.com/
