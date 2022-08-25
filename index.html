@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP Mobile</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-device-height: 812px) and (max-device-width: 375px)" href="./css/iphoneX.css" /> -->
+    <!-- <link rel="stylesheet" media="screen and (max-device-height: 568px) and (max-device-width: 320px)" href="./css/iphoneSE.css" /> -->
+    <!-- <link rel="stylesheet" media="screen and (max-device-height: 667px) and (max-device-width: 375px)" href="./css/iphone8.css" /> -->
+    <!-- <link rel="stylesheet" media="screen and (max-device-height: 736px) and (max-device-width: 414px)" href="./css/iphone8plus.css" /> -->
+    <!-- <link rel="stylesheet" media="screen and (max-device-height: 844px) and (max-device-width: 390px)" href="./css/iphone12.css" /> -->
+</head>
+<body>
+    <div class="banner_wrapper">
+        <div class="close_restore_buttons">
+            <div class="close_button">
+                <a href="#" class="close"><img src="./Assets/Path.svg" class="cross" alt=""></a>
+            </div>
+            <div class="restore_button">
+                <a href="#" data-text>Restore</a>
+            </div>
+        </div>
+        <div class="content_body">
+            <div class="title">
+                <h1 data-text data-localization="en">Unlimited Access<br>to All Features</h1>
+            </div>
+            <div class="content">
+                <div class="content_container">
+                <div><span><img src="./Assets/unlimitedDocs.svg" alt=""></span><p data-text>Unlimited documents</p></div>
+                <div><span><img src="./Assets/export.svg" alt=""></span><p data-text>Count mode</p></div>
+                <div><span><img src="./Assets/noAds.svg" alt=""></span><p data-text>Text recognition (OCR)</p></div>
+                </div>
+            </div>
+            <div class="subscribe_place_wrapper">
+                <div class="subscribe_button sub_left_btn active" id="sub_left" data-sub="left" onclick="changeRate(this)">
+                    <p class="sub_top_text" data-text>Monthly</p>
+                    <p class="sub_middle_text" data-text><strong>{{price}}</strong><br>per month</p>
+                    <p class="sub_highlight" data-text>3 DAYS FREE</p>
+                    <p class="sub_bottom_text" data-text>{{price}}/month</p>
+                </div>
+                <div class="subscribe_button sub_right_btn " id="sub_right" data-sub="right" onclick="changeRate(this)">
+                    <p class="sub_top_text" data-text>Annually</p>
+                    <p class="sub_middle_text" data-text><strong>{{priceY}}</strong><br>per year</p>
+                    <p class="sub_highlight" data-text>MOST POPULAR</p>
+                    <p class="sub_bottom_text" data-text>{{priceYm}}/month</p>
+                    <div class="sale" data-text>-83%</div>
+                </div>
+            </div>
+            <div class="button_wrapper"><a href="https://apple.com/" class="button" data-text>Continue</a></div>
+            
+        </div>
+        <div class="banner_footer">
+            <div class="footer_text" data-text>Auto-renewable. Cancel anytime.</div>
+            <div class="footer_links">
+                <a href="#" data-text>Terms of Use</a>
+                <a href="#" data-text>Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

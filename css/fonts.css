@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "SFProDisplayBold";  
+    src: url("../fonts/SFProDisplay-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SFProDisplayRefular";  
+    src: url("../fonts/SFProDisplay-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SFProTextRegular";  
+    src: url("../fonts/SFProText-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
