@@ -253,7 +253,6 @@ h1[data-localization='fr']{
         max-width: 375px;
         max-height: 812px;
     }
-    
 }
 
 @media screen and (max-width: 375px) and (max-height: 667px){
@@ -264,7 +263,7 @@ h1[data-localization='fr']{
     .close_restore_buttons{
         margin-top: 15px;
     }
-    .title {
+    .content_body .title{
         margin-top: 60px;
         margin-bottom: 20px;
     }
@@ -281,7 +280,7 @@ h1[data-localization='fr']{
     .close_restore_buttons{
         margin-top: 0px;
     }
-    .title {
+    .content_body .title{
         margin-top: 30px;
         margin-bottom: 10px;
     }
