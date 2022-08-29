@@ -11,7 +11,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-image: url('../Assets/background-full/4.png');
+    background-image: url('../Assets/background-full/4@3x.png');
     background-size: cover;
 }
 
@@ -64,18 +64,27 @@ h1[data-localization='fr']{
 .content_container div{
     display: flex;
 }
-.content div span{
+.content_container div span{
     display: flex;
     margin-right: 7px;
+    width: 25px;
+    margin-left: 10px;
 }
-.content div span img{
-    width: 22px;
+.content_container div span img{
+    width: 20px;
+}
+.content_container div:first-child span img{
+    width: 27px;
+}
+.content_container div:last-child span img{
+    width: 23px;
 }
 
 .content p{
-    font-family: "SFProDisplayRefular";
+    font-family: "SFProDisplayLight";
     font-size: 17px;
     line-height: 30px;
+    letter-spacing: 0.82px;
     color: #FFFFFF;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.684495);
 }
@@ -96,6 +105,18 @@ h1[data-localization='fr']{
     mix-blend-mode: normal;
     opacity: 0.25;
     cursor: pointer;
+}
+
+.subscribe_button.active .sub_top_text{
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+.subscribe_button.active .sub_middle_text{
+    line-height: 13px;   
+}
+.subscribe_button.active .sub_highlight{
+    margin-bottom: 11px;
 }
 
 .sub_left_btn{
@@ -135,6 +156,10 @@ h1[data-localization='fr']{
     color: #FFFFFF;
 }
 
+.sub_middle_text strong{
+    font-size: 24px;
+}
+
 .sub_highlight{
     font-family: "SFProDisplayBold";
     font-size: 13.9986px;
@@ -144,8 +169,8 @@ h1[data-localization='fr']{
     width: 139px;
     margin-left: -3px;
     background: #495795;
-    margin-top: 16px;
-    margin-bottom: 11px;
+    margin-top: 13px;
+    margin-bottom: 10px;
     padding: 2px 0;
 }
 .sub_bottom_text{
@@ -243,9 +268,6 @@ h1[data-localization='fr']{
         max-width: 390px;
         max-height: 844px;
     }
-    .banner_footer{
-        margin-top: 40px;
-    }
 }
 
 @media screen and (max-width: 376px) and (max-height: 813px){
@@ -297,8 +319,5 @@ h1[data-localization='fr']{
     }
     .subscribe_place_wrapper {
         margin: 30px 0 20px 0;
-    }
-    .banner_footer{
-        margin-top: 20px;
     }
 }

@@ -13,6 +13,14 @@
 }
 
 @font-face {
+    font-family: "SFProDisplayLight";  
+    src: url("../fonts/SFProDisplay-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+
+@font-face {
     font-family: "SFProTextRegular";  
     src: url("../fonts/SFProText-Regular.ttf") format("truetype"); 
     font-style: normal; 
